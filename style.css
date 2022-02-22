@@ -101,7 +101,8 @@ footer {
 
 .footer__h3 {
     text-align: center;
-    padding-top: 15px;
+    padding-top: 6px;
+    font-size: 25px;
 }
 
 @media only screen and (max-width: 550px) {
