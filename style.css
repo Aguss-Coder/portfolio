@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: linear-gradient(10deg, #3a3d40 0%, #181719 100%);
+    background: #0B0E14;
 }
 
 :root {
@@ -24,25 +24,18 @@ body {
 }
 
 .nav__h1 {
-    margin-top: 10px;
+    margin-top: .5em;
     margin-left: 2em;
+    font-weight: 900;
 }
 
 .link {
     margin-top: .7em;
-    margin-right: 3em;
+    margin-right: 2em;
     font-size: 1.3em;
     text-decoration: none;
     color: #000;
-    font-weight: 700;
-}
-
-.link_1 {
-    margin-top: .7em;
-    font-size: 1.3em;
-    text-decoration: none;
-    color: #000;
-    font-weight: 700;
+    font-weight: 900;
 }
 
 .welcome {
@@ -63,24 +56,24 @@ body {
     font-size: 1.8em;
 }
 
-.div__h2 {
-    font-size: 50px;
-    text-align: center;
+.p_2 {
     color: #fff;
+    font-size: 1.2em !important;
+    padding-top: 2.5em;
 }
 
 .div__img {
-    width: 200px;
+    width: 25%;
     border-radius: 50%;
-    margin: 5em auto;
+    margin: 3em auto;
     display: block;
 }
 
 .div__info {
-    font-size: 20px;
+    font-size: 1.5em;
     color: #fff;
     text-align: center;
-    padding: 1em 3em;
+    padding: .3em 3em 3em;
 }
 
 .line {
@@ -102,6 +95,16 @@ body {
     height: 500px;
 }
 
+.img_1 {
+    width: 50%;
+    margin: 1em 25% -1.6em;
+}
+
+.img_2 {
+    margin: 1em 10% 1.6em;
+    width: 80%;
+}
+
 .proyects__h3 {
     color: #fff;
     text-align: center;
@@ -112,7 +115,7 @@ body {
 .proyects__p {
     color: #fff;
     text-align: center;
-    padding: 3em 5px;
+    margin: 3em 1em 2em;
     font-size: 16px;
 }
 
@@ -121,7 +124,7 @@ body {
 }
 
 .proyects__ul li {
-    padding: 10px 10px;
+    margin: 1em 1em;
 }
 
 .proyects__ul li a {
