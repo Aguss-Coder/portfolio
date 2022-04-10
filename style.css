@@ -29,13 +29,17 @@ body {
     font-weight: 900;
 }
 
-.link {
+#profile-link {
     margin-top: .7em;
     margin-right: 2em;
     font-size: 1.3em;
     text-decoration: none;
     color: #000;
     font-weight: 900;
+}
+
+#profile-link i {
+    padding-right: .5em;
 }
 
 .welcome {
@@ -56,10 +60,16 @@ body {
     font-size: 1.8em;
 }
 
-.p_2 {
+.welcome a {
+    text-decoration: none;
     color: #fff;
     font-size: 1.2em !important;
     padding-top: 2.5em;
+}
+
+.div {
+    padding-top: 2em;
+    margin-bottom: 5em;
 }
 
 .div__img {
@@ -80,6 +90,14 @@ body {
     height: .5px;
     background-color: #fff;
     margin-top: 1.3em;
+}
+
+.title h3{
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 3em;
+    margin-top: 2em;
 }
 
 .proyects {
@@ -116,7 +134,6 @@ body {
     color: #fff;
     text-align: center;
     margin: 3em 1em 2em;
-    font-size: 16px;
 }
 
 .proyects__ul {
@@ -132,6 +149,10 @@ body {
     text-decoration: none;
     text-align: center;
     font-size: 17px;
+}
+
+.proyects__ul li i {
+    padding-right: .5em;
 }
 
 .proyects__ul li a:hover {
@@ -155,6 +176,10 @@ footer {
     .nav {
         display: none;
     }
+
+    .div {
+        margin-bottom: 12em;
+    }
 }
 
 @media only screen and (max-width: 550px) {
@@ -168,6 +193,10 @@ footer {
 
     .footer__h3 {
         font-size: 1.2em;
+    }
+
+    .div {
+        margin-bottom: 16.1em;
     }
 }
 
@@ -190,5 +219,9 @@ footer {
 
     .footer__h3 {
         font-size: 1em;
+    }
+
+    .div {
+        margin-bottom: 16em;
     }
 }
